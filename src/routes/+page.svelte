@@ -22,15 +22,18 @@
 
 <Navigation />
 
+<!-- Global TED Grid Background -->
+<div class="fixed inset-0 bg-black" style="z-index: -1;"></div>
+
 <main class="overflow-x-hidden">
 	<Hero />
 	<About />
 	<Theme />
 	<Speakers />
-	<Schedule />
+	<!-- <Schedule /> -->
 	<Venue />
-	<Sponsors />
-	<Team />
+	<!-- <Sponsors /> -->
+	<!-- <Team /> -->
 	<FAQ />
 	<Footer />
 </main>

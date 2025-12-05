@@ -7,6 +7,7 @@ node_modules
 .wrangler
 /.svelte-kit
 /build
+netlify.toml
 
 # OS
 .DS_Store

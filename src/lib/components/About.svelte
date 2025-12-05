@@ -6,10 +6,9 @@
 		<div class="grid md:grid-cols-2 gap-16 md:gap-24">
 			<!-- Left Column: About TEDxNorthSouthUniversity -->
 			<div class="space-y-6">
-				<h2 class="text-4xl md:text-5xl font-black uppercase tracking-tight">
-					About<br />
-					<span class="text-ted-red">TEDx</span>NorthSouthUniversity
-				</h2>
+				<div class="flex items-center gap-4">
+					<img src="/logo-white.png" alt="TEDxNSU Logo" class="h-16 md:h-20 w-auto" />
+				</div>
 				<div class="w-16 h-1 bg-ted-red"></div>
 				<p class="text-lg md:text-xl leading-relaxed text-gray-400">
 					TEDxNorthSouthUniversity is a platform for ideas worth spreading. We bring together 
@@ -23,8 +22,8 @@
 			<div class="space-y-8">
 				<!-- About TED -->
 				<div class="space-y-4">
-					<h3 class="text-2xl md:text-3xl font-bold uppercase tracking-tight">
-						About <span class="text-ted-red">TED</span>
+					<h3 class="text-2xl md:text-3xl font-bold uppercase tracking-tight flex items-center gap-2">
+						About <img src="/ted.svg" alt="TED" class="h-5 md:h-6 w-auto inline-block" />
 					</h3>
 					<p class="text-base md:text-lg leading-relaxed text-gray-500">
 						TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a 
@@ -36,8 +35,8 @@
 
 				<!-- About TEDx -->
 				<div class="space-y-4">
-					<h3 class="text-2xl md:text-3xl font-bold uppercase tracking-tight">
-						About <span class="text-ted-red">TEDx</span>
+					<h3 class="text-2xl md:text-3xl font-bold uppercase tracking-tight flex items-center gap-2">
+						About <img src="/tedx.svg" alt="TEDx" class="h-5 md:h-6 w-auto inline-block" />
 					</h3>
 					<p class="text-base md:text-lg leading-relaxed text-gray-500">
 						In the spirit of ideas worth spreading, TEDx is a program of local, 

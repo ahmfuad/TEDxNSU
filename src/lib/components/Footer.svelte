@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Facebook, Instagram, Mail } from 'lucide-svelte';
+	import { Facebook, Mail, Linkedin } from 'lucide-svelte';
 </script>
 
 <footer class="bg-ted-black text-white">
@@ -8,9 +8,7 @@
 		<div class="grid md:grid-cols-3 gap-12 mb-12">
 			<!-- Logo & Tagline -->
 			<div class="space-y-4">
-				<h3 class="text-3xl font-black">
-					<span class="text-ted-red">TED</span><span class="text-white">x</span>NSU
-				</h3>
+				<img src="/logo-white.png" alt="TEDxNSU Logo" class="h-12 w-auto mb-2" />
 				<p class="text-gray-400">
 					Ideas Worth Spreading
 				</p>
@@ -27,10 +25,10 @@
 						<a href="#speakers" class="text-gray-400 hover:text-ted-red transition-colors">Speakers</a>
 					</li>
 					<li>
-						<a href="#schedule" class="text-gray-400 hover:text-ted-red transition-colors">Schedule</a>
+						<a href="#venue" class="text-gray-400 hover:text-ted-red transition-colors">Venue</a>
 					</li>
 					<li>
-						<a href="#venue" class="text-gray-400 hover:text-ted-red transition-colors">Venue</a>
+						<a href="#faq" class="text-gray-400 hover:text-ted-red transition-colors">FAQ</a>
 					</li>
 				</ul>
 			</div>
@@ -40,7 +38,7 @@
 				<h4 class="text-lg font-bold uppercase tracking-wider mb-6">Connect With Us</h4>
 				<div class="flex gap-4 mb-6">
 					<a 
-						href="https://facebook.com" 
+						href="https://www.facebook.com/NSUBusinessAnalyticsClub" 
 						target="_blank"
 						rel="noopener noreferrer"
 						class="w-12 h-12 bg-gray-800 hover:bg-ted-red rounded-full flex items-center justify-center transition-colors"
@@ -49,16 +47,16 @@
 						<Facebook class="w-5 h-5" />
 					</a>
 					<a 
-						href="https://instagram.com" 
+						href="https://www.linkedin.com/company/nsu-business-analytics-club" 
 						target="_blank"
 						rel="noopener noreferrer"
 						class="w-12 h-12 bg-gray-800 hover:bg-ted-red rounded-full flex items-center justify-center transition-colors"
-						aria-label="Instagram"
+						aria-label="LinkedIn"
 					>
-						<Instagram class="w-5 h-5" />
+						<Linkedin class="w-5 h-5" />
 					</a>
 					<a 
-						href="mailto:info@tedxnorthsouthuniversity.com" 
+						href="mailto:tedxnorthsouthuniversity25@gmail.com" 
 						class="w-12 h-12 bg-gray-800 hover:bg-ted-red rounded-full flex items-center justify-center transition-colors"
 						aria-label="Email"
 					>
@@ -66,7 +64,7 @@
 					</a>
 				</div>
 				<p class="text-gray-400 text-sm">
-					info@tedxnorthsouthuniversity.com
+					tedxnorthsouthuniversity25@gmail.com
 				</p>
 			</div>
 		</div>
@@ -80,6 +78,19 @@
 			</p>
 			<p class="text-center text-gray-600 text-xs mt-4">
 				© 2025 TEDxNorthSouthUniversity. All rights reserved.
+			</p>
+			<p class="text-center text-gray-600 text-xs mt-3">
+				Technical support by{' '}
+				<a 
+					href="https://factorite.com" 
+					target="_blank" 
+					rel="noopener noreferrer"
+					class="text-ted-red hover:text-red-600 font-semibold transition-colors hover:underline"
+				>
+					Factorite
+				</a>
+        <a style="display:none;" href="https://hits.sh/tedxnorthsouthuniversity.com/"><img alt="Hits" style="display:none;" src="https://hits.sh/tedxnorthsouthuniversity.com.svg"/></a>
+
 			</p>
 		</div>
 	</div>

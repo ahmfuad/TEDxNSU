@@ -72,16 +72,6 @@ src/
 └── app.css                   # Global styles
 ```
 
-## 📚 Documentation
-
-- [QUICK_START.md](./QUICK_START.md) - Getting started guide
-- [BUILD_INSTRUCTIONS.md](./BUILD_INSTRUCTIONS.md) - How to build and deploy
-- [CUSTOMIZATION.md](./CUSTOMIZATION.md) - Customize content and styling
-- [DEPLOYMENT.md](./DEPLOYMENT.md) - Deploy to various platforms
-- [COMPONENT_REFERENCE.md](./COMPONENT_REFERENCE.md) - Component API
-- [TESTING.md](./TESTING.md) - Testing checklist
-- [QUICK_REFERENCE.md](./QUICK_REFERENCE.md) - Quick reference guide
-
 ## 🎨 Tech Stack
 
 - **Framework**: [SvelteKit](https://kit.svelte.dev/) - Modern web framework

@@ -2,6 +2,9 @@
 
 A clean, bold, minimalist website for TEDxNorthSouthUniversity 2025 event, built with SvelteKit and Tailwind CSS.
 
+View [HERE](https://www.tedxnorthsouthuniversity.com) OR [HERE](https://tedx-nsu.vercel.app)
+
+
 ## 🎯 Event Details
 
 - **Event**: TEDxNorthSouthUniversity
